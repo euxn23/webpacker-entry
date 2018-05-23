@@ -1,0 +1,33 @@
+{
+  "name": "webpacker-entry",
+  "version": "0.1.0",
+  "description": "Generate webpack.config.entry suit to rails with webpacker.",
+  "main": "index.js",
+  "scripts": {
+    "fmt": "prettier --write \"./**/*.js\"",
+    "test": "prettier --list-different \"./**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/euxn23/webpacker-entry.git"
+  },
+  "keywords": [
+    "webpack",
+    "webpacker",
+    "rails"
+  ],
+  "author": "euxn23",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/euxn23/webpacker-entry/issues"
+  },
+  "homepage": "https://github.com/euxn23/webpacker-entry#readme",
+  "devDependencies": {
+    "prettier": "^1.12.1",
+    "prettier-cli": "^0.1.0",
+    "webpack": "^4.8.3"
+  },
+  "dependencies": {
+    "readdir-recursively-sync": "^0.2.0"
+  }
+}
